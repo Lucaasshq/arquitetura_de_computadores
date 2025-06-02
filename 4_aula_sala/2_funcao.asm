@@ -6,6 +6,7 @@ main:	addi $2, $0, 5
 	addi $2, $0, 5
 	syscall
 	add $5, $0, $2
+	
 	jal adder
 	add $4, $0, $2
 	addi $2, $0, 1
